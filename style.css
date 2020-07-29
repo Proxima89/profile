@@ -1,0 +1,70 @@
+h1 {
+    color: rgb(108, 104, 112);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: rgb(57, 57, 59);
+    font-size: 22;
+    line-height: 1;
+}
+
+body {
+    color: rgb(88, 94, 150);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 251, 251);
+    font-size: 17px;
+    line height: 10px;
+}
+
+a {
+color: rgb(35, 120, 141);
+text-decoration: navajowhite;
+}
+a:hover {
+    color: black;
+    color: rgb(161, 160, 235);
+}
+img{
+    border-radius: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+  }
+  .card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .container {
+      margin: 10px auto;
+      background-color: white;
+      border: 1px solid rgb(182, 177, 177);
+      padding: 20px 60px;
+  }
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .card {
+      text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .links {
+   text-align: center;
+   width: 100px;    
+   margin: 0 auto;
+  }
