@@ -193,8 +193,22 @@
 
 # p custom_include?(phrase, 'Rub')
 
-p //.class
+# p //.class
 
-contacts = 'My name is Viktor Emilov and my phone number is: +44 7554 3220 92'
+# contacts = 'My name is Viktor Emilov and my phone number is: +44 7554 3220 92'
 
-p contacts.class(/\d/)
+# p contacts.scan(/\d{2}/)
+# print "Please enter the celsius: "
+File.open("file.txt", "r") do |value|
+    value.each_line do |temp|
+      fahr = (temp.to_i * 9 / 5) + 32
+        puts "#{temp} is #{fahr} Farenheid"
+    end
+  end
+
+
+
+
+
+
+
