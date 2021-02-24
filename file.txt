@@ -1,3 +1,7 @@
-13
-25 
-5
+Date: 24/02/202, 18
+ Celsius was 64 On Fahreinheit Date: 24/02/202, 22
+ Celsius was 71 On Fahreinheit 
+Time: 2021-02-24 16:00:47 +0000, 19
+ Celsius was 66 On Fahreinheit 
+Time: 2021-02-24 16:02:21 +0000, 20
+ on Celsius, and 68 On Fahreinheit 

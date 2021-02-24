@@ -199,16 +199,24 @@
 
 # p contacts.scan(/\d{2}/)
 # print "Please enter the celsius: "
-File.open("file.txt", "r") do |value|
-    value.each_line do |temp|
-      fahr = (temp.to_i * 9 / 5) + 32
-        puts "#{temp} is #{fahr} Farenheid"
+# File.open("file.txt", "r") do |value|
+#     value.each_line do |temp|
+#       fahr = (temp.to_i * 9 / 5) + 32
+#         puts "#{temp} is #{fahr} Farenheid"
+#     end
+#   end
+print "Please enter the current temperature: "
+temp_value = gets
+
+def cels_to_fahr(temp_value)
+    fahr = (temp_value.to_i * 9 / 5) + 32
+    p "The result is #{fahr} Fahrenheit"
+    File.open("file.txt", "a") do |line|
+        line.print "Time: #{Time.now}, #{temp_value} on Celsius, and #{fahr} On Fahreinheit "
     end
-  end
+end
 
-
-
-
+cels_to_fahr(temp_value)
 
 
 
