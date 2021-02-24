@@ -180,16 +180,21 @@
 # custom_start_with(the_sun, "T")
 # custom_end_with(the_sun, "tem")
 
-phrase = 'The Ruby Programming Language Is Amazing!'
+# phrase = 'The Ruby Programming Language Is Amazing!'
 
 
-def custom_include?(string, substring)
-    len = substring.length
-        string.chars.each_with_index { |char, index| 
-        return true if string[index, len] == substring
-    }
-    false
-end
+# def custom_include?(string, substring)
+#     len = substring.length
+#         string.chars.each_with_index { |char, index| 
+#         return true if string[index, len] == substring
+#     }
+#     false
+# end
 
-p custom_include?(phrase, 'Rub')
+# p custom_include?(phrase, 'Rub')
 
+p //.class
+
+contacts = 'My name is Viktor Emilov and my phone number is: +44 7554 3220 92'
+
+p contacts.gsub(/\d/, "0")
