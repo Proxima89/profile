@@ -197,4 +197,4 @@ p //.class
 
 contacts = 'My name is Viktor Emilov and my phone number is: +44 7554 3220 92'
 
-p contacts.gsub(/\d/, "0")
+p contacts.class(/\d/)
