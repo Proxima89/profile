@@ -166,5 +166,30 @@
 # end
 
 #  load 'insert.rb'
-require_relative 'insert'
+# the_sun = "The sun is the biggest space object in the solar system!"
+
+# def custom_start_with(string, substring)
+#     # start_word = string.split
+#     p string[0, substring.length] == substring 
+# end
+
+# def custom_end_with(string, substring)
+#     p string[ -substring.length..-1] == substring 
+# end
+
+# custom_start_with(the_sun, "T")
+# custom_end_with(the_sun, "tem")
+
+phrase = 'The Ruby Programming Language Is Amazing!'
+
+
+def custom_include?(string, substring)
+    len = substring.length
+        string.chars.each_with_index { |char, index| 
+        return true if string[index, len] == substring
+    }
+    false
+end
+
+p custom_include?(phrase, 'Rub')
 
