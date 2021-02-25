@@ -1,38 +1,25 @@
 class Gadget 
-    def initialize 
-        @username = "User #{rand(1..100)}"
-        @password  = "topsecret"
+
+    attr_accessor :username 
+    attr_reader :prod_number 
+    attr_writer :password
+
+    def initialize(username, password) 
+        @username = username 
+        @password = password
         @prod_number = "#{("a".."z").to_a.sample} --#{rand(1..999)}"
     end
 
     def to_s 
         "Gadget #{@prod_number} has the username #{@username}."
     end
-
-    def username 
-        @username
-    end
-
-    def username=(username) 
-        @username = username
-    end
-
-    def prod_number 
-        @prod_number
-    end
-
-    def password=(new_pass) 
-        @password = new_pass
-    end
 end
 
+user1 = Gadget.new('Viktor', 123456)
+user2 = Gadget.new('Weppes', 654321)
+user3 = Gadget.new('Rubyist', 'topsecret')
 
-phone = Gadget.new 
-laptop = Gadget.new
-
-p phone.password=("bestpassever")
-
-p phone.username
-phone.username=("Viktor")
-
-p phone.username
+p user1
+ user2.username = "Programmer" 
+p user2 
+p user3
