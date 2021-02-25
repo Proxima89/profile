@@ -205,18 +205,36 @@
 #         puts "#{temp} is #{fahr} Farenheid"
 #     end
 #   end
-print "Please enter the current temperature: "
-temp_value = gets
+# print "Please enter the current temperature: "
+# temp_value = gets
 
-def cels_to_fahr(temp_value)
-    fahr = (temp_value.to_i * 9 / 5) + 32
-    p "The result is #{fahr} Fahrenheit"
-    File.open("file.txt", "a") do |line|
-        line.print "Time: #{Time.now}, #{temp_value} on Celsius, and #{fahr} On Fahreinheit "
-    end
-end
+# def cels_to_fahr(temp_value)
+#     fahr = (temp_value.to_i * 9 / 5) + 32
+#     p "The result is #{fahr} Fahrenheit"
+#     File.open("file.txt", "a") do |line|
+#         line.puts "Time: #{Time.now}, #{temp_value} on Celsius, and #{fahr} On Fahreinheit. "
+#     end
+# end
 
-cels_to_fahr(temp_value)
+# cels_to_fahr(temp_value)
+# puts "Please enter the temperature: "
+# cels_value = gets 
 
+# def cels_to_fahr(cels_value)
+#     File.open("cels.txt", "a") do |line|
+#         line.puts "#{Time.now} #{cels_value} Celsius"
 
+#         fahr = (cels_value.to_i * 9 / 5) + 32
+#         File.open("fahr.txt", "a") do |line| 
+#             line.puts "#{Time.now} #{fahr} Fahrenheit"
+#         end 
+#     end    
+# end 
+
+# cels_to_fahr(cels_value)
+
+# array_method = [1, 2, 3].methods.sort
+# hash_method = Hash.new{0}.methods.sort
+
+# puts array_method - hash_method
 

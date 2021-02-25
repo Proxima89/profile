@@ -4,4 +4,7 @@ Date: 24/02/202, 18
 Time: 2021-02-24 16:00:47 +0000, 19
  Celsius was 66 On Fahreinheit 
 Time: 2021-02-24 16:02:21 +0000, 20
- on Celsius, and 68 On Fahreinheit 
+ on Celsius, and 68 On Fahreinheit Time: 2021-02-24 16:04:20 +0000, 25
+ on Celsius, and 77 On Fahreinheit Time: 2021-02-24 16:05:00 +0000, 16
+ on Celsius, and 60 On Fahreinheit Time: 2021-02-24 16:05:33 +0000, 12
+ on Celsius, and 53 On Fahreinheit 
