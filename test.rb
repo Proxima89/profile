@@ -180,16 +180,61 @@
 # custom_start_with(the_sun, "T")
 # custom_end_with(the_sun, "tem")
 
-phrase = 'The Ruby Programming Language Is Amazing!'
+# phrase = 'The Ruby Programming Language Is Amazing!'
 
 
-def custom_include?(string, substring)
-    len = substring.length
-        string.chars.each_with_index { |char, index| 
-        return true if string[index, len] == substring
-    }
-    false
-end
+# def custom_include?(string, substring)
+#     len = substring.length
+#         string.chars.each_with_index { |char, index| 
+#         return true if string[index, len] == substring
+#     }
+#     false
+# end
 
-p custom_include?(phrase, 'Rub')
+# p custom_include?(phrase, 'Rub')
+
+# p //.class
+
+# contacts = 'My name is Viktor Emilov and my phone number is: +44 7554 3220 92'
+
+# p contacts.scan(/\d{2}/)
+# print "Please enter the celsius: "
+# File.open("file.txt", "r") do |value|
+#     value.each_line do |temp|
+#       fahr = (temp.to_i * 9 / 5) + 32
+#         puts "#{temp} is #{fahr} Farenheid"
+#     end
+#   end
+# print "Please enter the current temperature: "
+# temp_value = gets
+
+# def cels_to_fahr(temp_value)
+#     fahr = (temp_value.to_i * 9 / 5) + 32
+#     p "The result is #{fahr} Fahrenheit"
+#     File.open("file.txt", "a") do |line|
+#         line.puts "Time: #{Time.now}, #{temp_value} on Celsius, and #{fahr} On Fahreinheit. "
+#     end
+# end
+
+# cels_to_fahr(temp_value)
+# puts "Please enter the temperature: "
+# cels_value = gets 
+
+# def cels_to_fahr(cels_value)
+#     File.open("cels.txt", "a") do |line|
+#         line.puts "#{Time.now} #{cels_value} Celsius"
+
+#         fahr = (cels_value.to_i * 9 / 5) + 32
+#         File.open("fahr.txt", "a") do |line| 
+#             line.puts "#{Time.now} #{fahr} Fahrenheit"
+#         end 
+#     end    
+# end 
+
+# cels_to_fahr(cels_value)
+
+# array_method = [1, 2, 3].methods.sort
+# hash_method = Hash.new{0}.methods.sort
+
+# puts array_method - hash_method
 

@@ -1,3 +1,10 @@
-Solar System
-
-The solar system currently consist of 8 planets together with couple of other dwarf planets. Almost every planet has moons orbiting around them by the help of the gravity. At the middle of our solar system is located the big bright sun, which keeps all the space objects in the solar system together and it is one of the well known source of life.
+Date: 24/02/202, 18
+ Celsius was 64 On Fahreinheit Date: 24/02/202, 22
+ Celsius was 71 On Fahreinheit 
+Time: 2021-02-24 16:00:47 +0000, 19
+ Celsius was 66 On Fahreinheit 
+Time: 2021-02-24 16:02:21 +0000, 20
+ on Celsius, and 68 On Fahreinheit Time: 2021-02-24 16:04:20 +0000, 25
+ on Celsius, and 77 On Fahreinheit Time: 2021-02-24 16:05:00 +0000, 16
+ on Celsius, and 60 On Fahreinheit Time: 2021-02-24 16:05:33 +0000, 12
+ on Celsius, and 53 On Fahreinheit 
