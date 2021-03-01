@@ -46,5 +46,20 @@ class ChristmasGift
     include Createable
 end
 
+class Supermarket 
+    def sainsburys(item) 
+        p "The #{item} has been ordered"
+    end
+end
+
+class Shopping < Supermarket 
+end
+
 card = ChristmasGift.new 
 card.present('Message Card')
+
+fruits = Supermarket.new 
+fruits.sainsburys("Banana")
+
+vegi = Shopping.new 
+vegi.sainsburys("Brocoli")
