@@ -77,7 +77,7 @@
 # p odd_or_even(input)
 
 # ----------------------------- Reverse Words
-full_name = "Viktor spaced Emilov"
+full_name = "Viktor space Emilov"
 
 def reverse_words(string)
     reversed = ""
